@@ -79,4 +79,6 @@ footer {
     margin-top: 5rem;
     height: 150px;
     background-color:rgba(26, 26, 68, 0.938);
+    max-width: 1200px;
+    margin: auto;
 }
