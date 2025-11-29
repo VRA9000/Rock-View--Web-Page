@@ -91,6 +91,7 @@ nav {
     max-width: 1200px;
     text-align: center;
     margin: auto;
+    height: fit-content;
 }
 ul {
     display: flex;
@@ -138,4 +139,21 @@ footer {
     background-color:rgba(26, 26, 68, 0.938);
     max-width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.elements {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.elements li {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: -9px;
+}
+.elements li a {
+    font-size: 16px;
 }
