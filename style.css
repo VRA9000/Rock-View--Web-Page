@@ -38,6 +38,7 @@ body {
 .social_media{
      margin-left: 1.4rem;
      margin-top: .5rem;
+     text-align: left;
 }
 .fa-square-facebook:hover{
     color: rgb(53, 53, 238);
@@ -59,11 +60,14 @@ img{
      padding: .4rem;
      border: none;
      border-radius: 3px;
+     width: 120px;
+     transition: .7s;
      &:focus{
         background-color: lightgray;
      }
      &:hover {
         background-color: lightgray;
+        width: 300px;
      }
      
 }
