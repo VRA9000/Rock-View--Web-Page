@@ -4,6 +4,47 @@ body {
     font-family:"Noto Sans", sans-serif;
     background-color: rgb(238, 237, 237);
 }
+
+.top_right_elements{
+    text-align: right;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 1.4rem;
+    font-size: 28px;
+    transition: .5s;
+}
+.fa-arrow-right-to-bracket{
+    transition: .5s;
+}
+.top_right_elements .fa-arrow-right-to-bracket:hover{
+    color: white;
+
+}
+.fa-circle-info{
+    transition: .5s;
+}
+.top_right_elements .fa-circle-info:hover{
+    color: white;
+
+}
+.fa-brands{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: .2rem;
+    
+   
+    
+}
+.social_media{
+     margin-left: 1.4rem;
+     margin-top: .5rem;
+}
+.fa-square-facebook:hover{
+    color: rgb(53, 53, 238);
+}
+.fa-square-youtube:hover {
+    color: red;
+}
 img{
     float: right;
     margin: auto 3rem;
@@ -13,6 +54,18 @@ img{
      max-width: 350px;
      text-align: center;
     
+}
+.top_right_elements input{
+     padding: .4rem;
+     border: none;
+     border-radius: 3px;
+     &:focus{
+        background-color: lightgray;
+     }
+     &:hover {
+        background-color: lightgray;
+     }
+     
 }
 
 .center_doc{
